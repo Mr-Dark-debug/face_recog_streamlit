@@ -30,40 +30,40 @@ This project implements a face recognition system with two functionalities:
 
 1} Clone this repository:
 
-```git clone https://<your_github_username>/Project-v.git```
+* ```git clone https://<your_github_username>/Project-v.git```
 
 2} Navigate to the project directory:
 
-```cd final_cv```
+* ```cd final_cv```
 
 3} Install the required libraries:
 
-```pip install -r requirements.txt```
+* ```pip install -r requirements.txt```
 
 ## Usage:
 
 ### Image Recognition:
 
-. Run the script:
+* Run the script:
 
 ```streamlit run a.py```
 
-. Upload an image using the Streamlit interface.
+* Upload an image using the Streamlit interface.
 
-. The app will display the recognition result (match or unknown).
+* The app will display the recognition result (match or unknown).
 
 ### Live Video Recognition:
 
-. Run the script:
+* Run the script:
 
 ```stremlit run main.py```
 
-. The Streamlit interface will display the live video stream with recognized faces and their names.
+* The Streamlit interface will display the live video stream with recognized faces and their names.
 
 ## Data Structure:
 
-. ```known_faces```: This folder stores images of known individuals used for recognition.
-. ```unknown_face.mp4``` (optional): This file (created by main.py) stores a short video clip of an unknown face for potential later analysis.
+* ```known_faces```: This folder stores images of known individuals used for recognition.
+* ```unknown_face.mp4``` (optional): This file (created by main.py) stores a short video clip of an unknown face for potential later analysis.
 
 ## Additional Notes:
 
