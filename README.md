@@ -30,7 +30,7 @@ This project implements a face recognition system with two functionalities:
 
 1} Clone this repository:
 
-* ```git clone https://<your_github_username>/Project-v.git```
+* ```git clone https://github.com/Mr-Dark-debug/face_recog_streamlit/```
 
 2} Navigate to the project directory:
 
