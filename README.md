@@ -4,23 +4,27 @@ This project implements a face recognition system with two functionalities:
 
 ## 1} Image Recognition
 
--> Upload an image to identify the person based on a dataset of known faces.
--> If recognized, the name is displayed.
--> If not recognized, add the face to the known faces database with a name (optional).
+🠊 Upload an image to identify the person based on a dataset of known faces.
+
+🠊 If recognized, the name is displayed.
+
+🠊 If not recognized, add the face to the known faces database with a name (optional).
 
 ## 2} Live Video Recognition
 
-Continuously identify faces in a live video stream using your webcam.
-Recognized faces from the known faces dataset display their names.
-When an unknown face is detected, a short video clip (around 1 second) is saved for further analysis (potentially for adding the face to the known faces database later).
+🠊 Continuously identify faces in a live video stream using your webcam.
+
+🠊 Recognized faces from the known faces dataset display their names.
+
+🠊 When an unknown face is detected, a short video clip (around 1 second) is saved for further analysis (potentially for adding the face to the known faces database later).
 
 ## Requirements:
 
-. Python 3+
-. Libraries (specified in requirements.txt):
-. face_recognition
-. streamlit (https://docs.streamlit.io/) (for user interface)
-. opencv-python (for live video processing, if applicable)
+* Python 3+
+* Libraries (specified in requirements.txt):
+* face_recognition
+* streamlit (https://docs.streamlit.io/) (for user interface)
+* opencv-python (for live video processing, if applicable)
 
 ## Installation:
 
