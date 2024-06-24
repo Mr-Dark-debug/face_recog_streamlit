@@ -4,9 +4,9 @@ This project implements a face recognition system with two functionalities:
 
 ## 1} Image Recognition
 
-Upload an image to identify the person based on a dataset of known faces.
-If recognized, the name is displayed.
-If not recognized, add the face to the known faces database with a name (optional).
+-> Upload an image to identify the person based on a dataset of known faces.
+-> If recognized, the name is displayed.
+-> If not recognized, add the face to the known faces database with a name (optional).
 
 ## 2} Live Video Recognition
 
